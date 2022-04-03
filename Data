@@ -1,0 +1,7 @@
+#
+filename = "C:\Users\Alex\Documents\Uni\Autumn 2022\ml-100k\README"
+file = open(filename, mode = "r")
+text = file.read()
+print(text)
+print(file.closed) # returns boolean value; indicates that the file is closed or not.
+file.close() # closes the filehttps://github.com/Horodom/Movie
